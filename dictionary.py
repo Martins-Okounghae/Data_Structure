@@ -30,7 +30,11 @@ dict_1.clear()
 
 #del dict_1
 
+<<<<<<< HEAD
 dict_2 = {('First Name', 'Last Name'): 'Gold  ' 'Land', 'Age':101}
+=======
+dict_2 = {('First Name', 'Last Name'): 'Gold  ' 'Land ', 'Age':100}
+>>>>>>> 2a07e55966381045636a2707f27d4a1b0a8251ae
 
 print(dict_1)
 
