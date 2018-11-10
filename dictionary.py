@@ -30,7 +30,7 @@ dict_1.clear()
 
 #del dict_1
 
-dict_2 = {('First Name', 'Last Name'): 'Martins  ' 'Okuonghae ', 'Age':43}
+dict_2 = {('First Name', 'Last Name'): 'Gold  ' 'Land', 'Age':43}
 
 print(dict_1)
 
