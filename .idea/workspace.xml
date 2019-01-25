@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d7bf162-af51-49c5-84f3-e8d6cc9e9399" name="Default" comment="" />
+    <list default="true" id="7d7bf162-af51-49c5-84f3-e8d6cc9e9399" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +19,10 @@
     <SUITE FILE_PATH="coverage/Data_Structure$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1540499638146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_Structure$2_D_Array.coverage" NAME="2-D-Array Coverage Results" MODIFIED="1542146121442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_Structure$maps.coverage" NAME="maps Coverage Results" MODIFIED="1543444503726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Data_Structure$stack.coverage" NAME="stack Coverage Results" MODIFIED="1548202933020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Structure$stack.coverage" NAME="stack Coverage Results" MODIFIED="1548386499713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_Structure$linked_lists.coverage" NAME="linked_lists Coverage Results" MODIFIED="1548201272467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_Structure$sets.coverage" NAME="sets Coverage Results" MODIFIED="1543317417154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Structure$queue.coverage" NAME="queue Coverage Results" MODIFIED="1548387435460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,16 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="List.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/List.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,18 +110,28 @@
       <file leaf-file-name="linked_lists.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked_lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4578">
+            <state relative-caret-position="8704">
               <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stack.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2346">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -160,6 +163,7 @@
         <option value="$PROJECT_DIR$/maps.py" />
         <option value="$PROJECT_DIR$/linked_lists.py" />
         <option value="$PROJECT_DIR$/stack.py" />
+        <option value="$PROJECT_DIR$/queue.py" />
       </list>
     </option>
   </component>
@@ -201,8 +205,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stack">
+  <component name="RunManager" selected="Python.queue">
     <configuration name="linked_lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +262,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -271,7 +275,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Data_Structure" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,19 +317,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.matrix" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sets" />
-      <item index="2" class="java.lang.String" itemvalue="Python.maps" />
-      <item index="3" class="java.lang.String" itemvalue="Python.linked_lists" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stack" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sets" />
+      <item index="1" class="java.lang.String" itemvalue="Python.maps" />
+      <item index="2" class="java.lang.String" itemvalue="Python.linked_lists" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stack" />
+      <item index="4" class="java.lang.String" itemvalue="Python.queue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stack" />
-        <item index="1" class="java.lang.String" itemvalue="Python.linked_lists" />
-        <item index="2" class="java.lang.String" itemvalue="Python.maps" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sets" />
-        <item index="4" class="java.lang.String" itemvalue="Python.matrix" />
+        <item index="0" class="java.lang.String" itemvalue="Python.queue" />
+        <item index="1" class="java.lang.String" itemvalue="Python.stack" />
+        <item index="2" class="java.lang.String" itemvalue="Python.linked_lists" />
+        <item index="3" class="java.lang.String" itemvalue="Python.maps" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sets" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +350,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30277187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30597016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -380,14 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -774,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4578">
+        <state relative-caret-position="8704">
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding />
         </state>
@@ -783,7 +779,15 @@
     <entry file="file://$PROJECT_DIR$/stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
           <folding />
         </state>
       </provider>

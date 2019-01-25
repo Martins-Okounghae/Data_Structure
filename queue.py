@@ -1,0 +1,59 @@
+print("-----------------------------------------------------")
+print("Adding Elements to a Queue")
+print("-----------------------------------------------------")
+
+
+class Queue:
+    def __init__(self):
+        self.queue = list()
+
+    def addtoq(self, dataval): #insert method to add element
+        if dataval not in self.queue:
+            self.queue.insert(0,dataval)
+            return True
+        return False
+
+    def size(self):
+        return len(self.queue)
+
+
+TheQueue = Queue()
+
+
+TheQueue.addtoq("Mon")
+TheQueue.addtoq("Tue")
+TheQueue.addtoq("Wed")
+print(TheQueue.size())
+
+print("---------------------------------------------------------")
+print("Removing Elements from a Queue")
+print("---------------------------------------------------------")
+
+
+class Queue:
+
+    def __init__(self):
+        self.queue = list()
+
+    def addtoq(self, dataval): # Insert method to add element
+        if dataval not in self.queue:
+            self.queue.insert(0,dataval)
+            return True
+        return False
+
+    #Pop method to remove element
+
+    def removefromq(self):
+        if len(self.queue)>0:
+            return self.queue.pop()
+        return "No elements in Queue"
+
+TheQueue2 = Queue()
+TheQueue2.addtoq("Mon")
+TheQueue2.addtoq("Tue")
+TheQueue2.addtoq("Wed")
+
+
+print(TheQueue2.removefromq())
+
+print(TheQueue2.removefromq())
